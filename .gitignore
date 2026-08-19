@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
+
+# 数据由程序按固定版本自动下载
+data/
+
+# 程序生成的结果
+outputs/
+
+# 本地构建辅助文件
+.build/
