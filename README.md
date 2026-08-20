@@ -36,6 +36,8 @@
 
 ## 运行
 
+建议使用 Python 3.11 或更高版本；GitHub Actions 使用 Python 3.12 自动执行快速测试。
+
 ```bash
 git clone https://github.com/guosongnian/aqueous-solubility-regression.git
 cd aqueous-solubility-regression
@@ -62,6 +64,9 @@ python solubility_regression.py --quick
 .
 ├── notebooks/
 │   └── aqueous_solubility_regression.ipynb
+├── tests/
+│   └── test_smoke.py
+├── .github/workflows/ci.yml
 ├── solubility_regression.py
 ├── requirements.txt
 ├── NOTICE.md
